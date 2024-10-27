@@ -3,9 +3,10 @@
 
 # Bitcoin Bird Game
 
-## Description
+#### Video Demo:  https://youtu.be/G-_m9q0EqyY
+#### Description
 
-Bitcoin Bird is a 2D side-scrolling game inspired by the classic Flappy Bird. In this game, you control a bird representing a Bitcoin icon, and the objective is to navigate through a series of obstacles while accumulating points. The game includes dynamic lighting effects, wind particles, and a stylish score display. As you play, the bird generates wind trails and floating Bitcoin coins appear when you score, adding to the game's visual appeal.
+Bitcoin Bird is a 2D side-scrolling game inspired by the classic Flappy Bird. In this game, you control a Bitcoin Bird, and the objective is to navigate through a series of obstacles while accumulating BTC. The game includes dynamic lighting effects, wind particles, and a stylish score display. As you play, the bird generates wind trails and floating Bitcoin coins appear when you score, adding to the game's visual appeal. This game was programmed as final project for the Harvard CS50P course.
 
 ## Table of Contents
 - [Description](#description)
@@ -30,7 +31,7 @@ Bitcoin Bird is a 2D side-scrolling game inspired by the classic Flappy Bird. In
 ## Installation
 
 ### Prerequisites
-- **Python 3.7+**
+- **Python 3.12**
 - **Pygame library**
 
 ### Steps to Install
@@ -97,35 +98,14 @@ Tests are included to verify the core functions of the game. The test cases are 
    pytest test_project.py
    ```
 
-### Writing Tests
-All the test cases for the main game functions should follow the format `test_function_name`. Ensure that any new functions you add are accompanied by corresponding tests.
-
 ## Dependencies
 
 The game relies on the following dependencies, which are listed in `requirements.txt`:
 
 - **Pygame 2.1.2**
 - **Pytest 7.4.2**
-
-## Contributing
-
-We welcome contributions! If you find a bug or want to add a new feature, feel free to fork this repository and submit a pull request. Please make sure to add test cases for any new features or bug fixes you implement.
-
-### Steps to Contribute:
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make your changes and commit (`git commit -m 'Add some feature'`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
+## Visual Assets
+The bird, bitcoin, background and pipe textures were created using Dalle 2 https://openai.com/index/dall-e-2/.
 ## Sound and Music
 The music used was generated with the use of https://www.udio.com/.
 The sound effects were generated with the use of https://elevenlabs.io/app/sound-effects/generate.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-This `README.md` covers all the essential information about your project and provides clear instructions on installation, gameplay, and contributions. Feel free to adjust the content as per your project specifics.
