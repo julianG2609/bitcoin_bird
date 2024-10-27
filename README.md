@@ -1,7 +1,5 @@
-Here is a comprehensive `README.md` for your project:
 
----
-<img src="static/bitcoin.png" alt="Gameplay Screenshot" width="150"/>
+<img src="static/bitcoin.png" alt="Gameplay Screenshot" width="250"/>
 
 # Bitcoin Bird Game
 
