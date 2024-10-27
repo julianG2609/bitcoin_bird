@@ -13,7 +13,7 @@ class Bitcoin:
         self.neutral_image = pygame.image.load("static/bird.png").convert_alpha()
 
         # Scale all images proportionally
-        scaled_width = int(SCREEN_WIDTH * 0.065)
+        scaled_width = int(SCREEN_WIDTH * 0.075)
         scaled_height = int(scaled_width * self.rising_image.get_height() / self.rising_image.get_width())
         self.rising_image = pygame.transform.smoothscale(self.rising_image, (scaled_width, scaled_height))
         self.falling_image = pygame.transform.smoothscale(self.falling_image, (scaled_width, scaled_height))
